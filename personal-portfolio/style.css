@@ -1,0 +1,136 @@
+body {
+    font-family: Sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Added text shadow for header */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 5;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px; /* padding for better spacing around links */
+    border-radius: 5px; /* ounded corners for links */
+}
+
+nav a:hover {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; /* rounded corners for section */
+}
+
+abbr {
+    font-weight: bold;
+}
+
+#projects ul {
+    padding-left: 20px;
+}
+
+#projects ul li:nth-child(odd) {
+    color: blue;
+}
+
+#projects ul li:nth-child(even) {
+    color: green;
+}
+
+aside {
+    width: 250px;
+    position: fixed;
+    right: 20px;
+    top: 350px;
+    border: 2px solid #333;
+    padding: 10px;
+    background-color: #f4f4f4;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 8px; /* rounded corners for aside */
+}
+
+figure img {
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+figcaption.bold-text {
+    font-weight: bold;
+}
+
+details {
+    margin-top: 15px;
+}
+
+details summary {
+    font-weight: bold;
+}
+
+/* footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* styling for the link in footer */
+#external-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#external-link:hover {
+    text-decoration: underline;
+}
+
+/* additional Enhancements */
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;  /* base font size */
+    line-height: 1.6; /* line height for better spacing between lines */
+}
+
+section h2 {
+    text-align: center;  /* center-align section titles */
+    padding-top: 20px;  /* space above section titles */
+}
+
+footer {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+/* hover effect on the second link in the footer */
+#external-link:hover {
+    color: #ff5733;  /* color change on hover */
+    text-decoration: underline;
+}
