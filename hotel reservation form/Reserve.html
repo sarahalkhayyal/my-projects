@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hotel Reservation Form</title>
+  <link rel="stylesheet" href="Reserve.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Hotel Reservation Form</h1>
+    <form id="reservationForm">
+      <label>Name:
+        <input type="text" id="name">
+      </label>
+      <span class="error" id="nameError"></span>
+
+      <label>Phone Number:
+        <input type="tel" id="phone" placeholder="05xxxxxxxx">
+      </label>
+      <span class="error" id="phoneError"></span>
+
+      <label>Reservation Start Date:
+        <input type="date" id="startDate">
+      </label>
+      <span class="error" id="startDateError"></span>
+
+      <label>Reservation End Date:
+        <input type="date" id="endDate">
+      </label>
+      <span class="error" id="endDateError"></span>
+
+      <label>Country:
+        <select id="country">
+          <option value="">Select Country</option>
+          <option value="Saudi Arabia">Saudi Arabia</option>
+          <option value="UAE">UAE</option>
+        </select>
+      </label>
+      <span class="error" id="countryError"></span>
+
+      <label>City:
+        <select id="city">
+          <option value="">Select City</option>
+        </select>
+      </label>
+      <span class="error" id="cityError"></span>
+
+      <label>Number of Rooms:
+        <input type="number" id="rooms" min="1">
+      </label>
+      <span class="error" id="roomsError"></span>
+
+      <div class="buttons">
+        <button type="submit" id="submitBtn">Submit</button>
+        <button type="reset" id="resetBtn">Reset</button>
+      </div>
+
+      <div id="confirmationMessage"></div>
+    </form>
+  </div>
+
+  <script src="Reserve.js"></script>
+</body>
+</html>
